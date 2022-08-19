@@ -16,8 +16,7 @@ const Home = () => {
     if(isLoading){
         return <h1>Loading...</h1>
     }
-
-    console.log(users)
+    
     return (
         <div>
             <h2 className='heading'>Showing All Users</h2>
